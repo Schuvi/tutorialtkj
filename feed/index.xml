@@ -1,3 +1,4 @@
+3e6c
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -12,7 +13,7 @@
 	<atom:link href="https://schuvi.github.io/tutorialtkj/feed/" rel="self" type="application/rss+xml" />
 	<link>https://schuvi.github.io/tutorialtkj</link>
 	<description>Level Up Your Knowledge</description>
-	<lastBuildDate>Tue, 26 Dec 2023 22:19:24 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 27 Dec 2023 05:33:51 +0000</lastBuildDate>
 	<language>id</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,24 +29,128 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Halo dunia!</title>
-		<link>https://schuvi.github.io/tutorialtkj/2023/12/26/halo-dunia/</link>
-					<comments>https://schuvi.github.io/tutorialtkj/2023/12/26/halo-dunia/#comments</comments>
+		<title>contoh4</title>
+		<link>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh4/</link>
+					<comments>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh4/#respond</comments>
 		
 		<dc:creator><![CDATA[Schuvi]]></dc:creator>
-		<pubDate>Tue, 26 Dec 2023 22:19:24 +0000</pubDate>
-				<category><![CDATA[Tak Berkategori]]></category>
-		<guid isPermaLink="false">https://schuvi.github.io/tutorialtkj/?p=1</guid>
+		<pubDate>Wed, 27 Dec 2023 00:04:13 +0000</pubDate>
+				<category><![CDATA[Tutorial Debian]]></category>
+		<guid isPermaLink="false">https://schuvi.github.io/tutorialtkj/?p=48</guid>
 
-					<description><![CDATA[Selamt datang di WordPress. Ini adalah pos pertama Anda. Sunting atau hapus, kemudian mulai menulis!]]></description>
-										<content:encoded><![CDATA[
-<p>Selamt datang di WordPress. Ini adalah pos pertama Anda. Sunting atau hapus, kemudian mulai menulis!</p>
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh4/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>contoh3</title>
+		<link>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh3/</link>
+					<comments>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh3/#respond</comments>
+		
+		<dc:creator><![CDATA[Schuvi]]></dc:creator>
+		<pubDate>Wed, 27 Dec 2023 00:03:16 +0000</pubDate>
+				<category><![CDATA[Tutorial Debian]]></category>
+		<guid isPermaLink="false">https://schuvi.github.io/tutorialtkj/?p=46</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh3/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>contoh2</title>
+		<link>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh2/</link>
+					<comments>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh2/#respond</comments>
+		
+		<dc:creator><![CDATA[Schuvi]]></dc:creator>
+		<pubDate>Wed, 27 Dec 2023 00:03:04 +0000</pubDate>
+				<category><![CDATA[Tutorial Debian]]></category>
+		<guid isPermaLink="false">https://schuvi.github.io/tutorialtkj/?p=44</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cara Setting Wifi Voucher menggunakan Mikhmon Di Mikrotik (Tanpa Web Server Terpisah)</title>
+		<link>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/</link>
+					<comments>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/#respond</comments>
+		
+		<dc:creator><![CDATA[Schuvi]]></dc:creator>
+		<pubDate>Wed, 27 Dec 2023 00:02:50 +0000</pubDate>
+				<category><![CDATA[Tutorial Mikrotik]]></category>
+		<guid isPermaLink="false">https://schuvi.github.io/tutorialtkj/?p=42</guid>
+
+					<description><![CDATA[Mikhmon adalah suatu software yang memudahkan pengguna mikrotik untuk mengatur hotspot untuk kebutuhan usaha. Pada mikhmon, terdapat banyak sekali fitur&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Mikhmon adalah suatu software yang memudahkan pengguna mikrotik untuk mengatur hotspot untuk kebutuhan usaha. Pada mikhmon, terdapat banyak sekali fitur seperti, membuat voucher, monitoring jaringan, membatasi data, membuat layout voucher dll. Langsung saja berikut cara caranya :</p>
+<p>Hal-hal yang harus disiapkan :</p>
+<ol>
+<li>Laptop / Komputer (Tentu saja, gimana kalian mau ngerjain kalau gaada)</li>
+<li>Software <a href="https://laksa19.github.io/?mikhmon/v3/download">Mikhmon</a> (Ini versi 3 ya, kalau kalian mau menggunakan versi 4 boleh saja)</li>
+<li>Mikrotik (Minimal Router OS versi 6.3)</li>
+<li>Winbox</li>
+</ol>
+<p>Langkah-langkah :</p>
+<p>1. Download software Mikhmon dari link yang sudah saya sediakan diatas, jika sudah terbuka pilih yang &#8220;MIKHMON V3 + Webserver&#8221;.</p>
+<p><img fetchpriority="high" decoding="async" class=" wp-image-69 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-300x169.png" alt="" width="659" height="371" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165.png 1366w" sizes="(max-width: 659px) 100vw, 659px" /></p>
+<p>2. Jika sudah terdownload, extract file tersebut dan klik dua kali pada file &#8220;MikhmonServer.exe&#8221;, kemudian akan muncul tampilan seperti dibawah ini.</p>
+<p><img decoding="async" class=" wp-image-71 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Tampilan-server-non-aktif.png" alt="" width="319" height="262" /></p>
+<p>3. Klik start server untuk memulai server.</p>
+<p><img decoding="async" class=" wp-image-72 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Tampilan-server.png" alt="" width="309" height="251" /></p>
+<p>4. Siapkan mikrotik kalian, kemudian masuk kedalam winbox.</p>
+<p>5. Ubah identity dari mikrotik kalian, dengan cara masuk menu system -&gt; Identity dan ganti seperti pada gambar (Identity bisa diisi dengan nama lain). Jika sudah klik OK.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-75 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/identity-session.png" alt="" width="276" height="142" /></p>
+<p>6. Tambahkan 2 ip address, 1 ip address untuk menyambungkan dari router ke laptop admin dan 1 ip address untuk menyambungkan client dengan router. <strong>Untuk ip address yang mengarah ke laptop admin gunakan interfaces ether2 dan untuk ip address client gunakan interfaces wlan1</strong>. Terus interfaces ether1 digunakan untuk apa? ether1 digunakan untuk sumber internet. Jika sudah klik OK.</p>
+<p><img loading="lazy" decoding="async" class="size-medium wp-image-76 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/ip-address-list-300x263.png" alt="" width="300" height="263" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/ip-address-list-300x263.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/ip-address-list.png 577w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>7. Kemudian lakukan setup hotspot pada menu IP -&gt; Hotspot -&gt; Hotspot Setup. Kemudian akan keluar pop up menu pilih interfaces wlan1, dan klik next hingga menu DNS Name dan isi kolom tersebut terserah kalian (contohnya seperti walaweeee.pro), klik next dan isikan name local hotspot name dan password (terserah kalian). Kemudian klik next. <strong>Catat DNS Name</strong></p>
+<p><img loading="lazy" decoding="async" class=" wp-image-77 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Hotspot-300x209.png" alt="" width="342" height="238" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Hotspot-300x209.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Hotspot.png 539w" sizes="(max-width: 342px) 100vw, 342px" /></p>
+<p>8. Kemudian, tambahkan Users khusus untuk mikhmon pada System -&gt; Users. Masuk pada tab menu Groups dulu dan tambahkan seperti dibawah ini. Untuk Name groups bisa kalian isi semau kalian. Jika sudah klik OK</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-78 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/group-300x159.png" alt="" width="448" height="237" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/group-300x159.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/group.png 715w" sizes="(max-width: 448px) 100vw, 448px" /></p>
+<p>9. Kemudian klik tab menu Users dan buat user baru, ganti kolom groups pada groups yang telah dibuat tadi, dan isikan password semau kalian. Jika sudah klik OK.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-79 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/user-new-300x170.png" alt="" width="342" height="194" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/user-new-300x170.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/user-new.png 668w" sizes="(max-width: 342px) 100vw, 342px" /></p>
+<p>10. Jika sudah, masuk pada menu wireless dan klik 2 kali pada interfaces wlan1. Dan atur konfigurasi WIFI pada tab menu Wireless. Untuk SSID bisa kalian isi terserah kalian. Pastikan interface sudah enable (cek pada tulisan sebelah kanan menu tersebut). Kemudian klik OK.</p>
+<p><img loading="lazy" decoding="async" class="size-medium wp-image-80 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/wireless-interfaces-300x285.png" alt="" width="300" height="285" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/wireless-interfaces-300x285.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/wireless-interfaces.png 535w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>11. Kemudian jangan lupa kalian jadikan DHCP dengan cara masuk menu IP -&gt; DHCP Server -&gt; DHCP Setup. Pilih Interfaces ether2 dan klik next terus hingga menu pop up menghilang (ulangi kembali cara ini untuk interfaces wlan1). Hingga menjadi seperti gambar dibawah ini. <strong>Jangan khawatir tulisan berwarna merah, itu dikarenakan belum ada client yang tersambung pada interfaces tersebut</strong>.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-81 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Dhcp-server-300x157.png" alt="" width="468" height="245" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Dhcp-server-300x157.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Dhcp-server.png 721w" sizes="(max-width: 468px) 100vw, 468px" /></p>
+<p>12. Kemudian kembali pada menu server mikhmon yang bisa kalian buka pada system tray windows. Klik pada gambar yang ada di sebelah speaker (cari gambar yang mirip seperti logo dalam lingkaran tersebut). Klik kiri pada mouse dan klik open.</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-85 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/systray1.png" alt="" width="125" height="154" /></p>
+<p>13. Kemudian akan terbuka menu server mikhmon kembali dan klik open mikhmon.</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-72 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Tampilan-server.png" alt="" width="288" height="234" /></p>
+<p>14. Kalian akan diarahkan pada browser yang otomatis akan membuka halaman mikhmon. Masukkan username = mikhmon dan password = 1234, pada kolom tersebut.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-86 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-300x169.png" alt="" width="510" height="287" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon.png 1366w" sizes="(max-width: 510px) 100vw, 510px" /></p>
+<p>15. Jika kalian berhasil login, maka akan muncul menu seperti dibawah ini dan klik add router pada menu sebelah kiri.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-87 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-300x169.png" alt="" width="524" height="295" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167.png 1366w" sizes="(max-width: 524px) 100vw, 524px" /></p>
+<p>16. Pada menu add router isi bagian Session Name sesuai dengan nama pada Identity Mikrotik, isi IP Mikrotik sesuai dengan IP yang diisikan pada ether2, pada Mikhmon Data isi Hotspot Name terserah kalian, Isi juga DNS Name sesuai dengan DNS Name Hotspot yang telah diatur tadi, untuk data lain bisa kalian ikuti seperti pada gambar.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-88 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-300x169.png" alt="" width="520" height="293" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router.png 1366w" sizes="(max-width: 520px) 100vw, 520px" /></p>
+<p>17. Kemudian klik save, selanjutnya klik ping hingga muncul Ping OK seperti pada gambar diatas baru klik Connect.</p>
+<p>18. Untuk cara membuat vouchernya, pilih Add User Profile dan isikan seperti pada gambar, bisa kalian isi sebebas kalian dengan memerhatikan aturan yang berada di samping kanan. Jika sudah klik save.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-89 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-300x169.png" alt="" width="506" height="285" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile.png 1366w" sizes="(max-width: 506px) 100vw, 506px" /></p>
+<p>19. Untuk membuat voucher, kalian pilih menu user dan Generate User dan kalian bisa ikuti aturan dibawah ini.</p>
+<p style="text-align: center;"><img loading="lazy" decoding="async" class="alignnone  wp-image-90" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-300x169.png" alt="" width="498" height="280" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user.png 1366w" sizes="(max-width: 498px) 100vw, 498px" /></p>
+<p>20. Klik QR pada deretan tombol diatas kolom, dan akan menampilkan kumpulan QR yang bisa discan untuk masuk kedalam wifi atau bisa juga kalian masukkan username dan password secara manual.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-91 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-300x169.png" alt="" width="489" height="276" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher.png 1366w" sizes="(max-width: 489px) 100vw, 489px" /></p>
+
+bf
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://schuvi.github.io/tutorialtkj/2023/12/26/halo-dunia/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+					<wfw:commentRss>https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
+
+0
+

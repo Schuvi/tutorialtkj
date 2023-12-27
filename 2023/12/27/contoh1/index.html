@@ -5,10 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-	<title>Tutor TKJ &#8211; Level Up Your Knowledge</title>
+	<title>Cara Setting Wifi Voucher menggunakan Mikhmon Di Mikrotik (Tanpa Web Server Terpisah) &#8211; Tutor TKJ</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="alternate" type="application/rss+xml" title="Tutor TKJ &raquo; Feed" href="https://schuvi.github.io/tutorialtkj/feed/">
 <link rel="alternate" type="application/rss+xml" title="Tutor TKJ &raquo; Umpan Komentar" href="https://schuvi.github.io/tutorialtkj/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Tutor TKJ &raquo; Cara Setting Wifi Voucher menggunakan Mikhmon Di Mikrotik (Tanpa Web Server Terpisah) Umpan Komentar" href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/feed/">
 <script type="text/javascript">
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/schuvi.github.io\/tutorialtkj\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.2"}};
@@ -41,8 +42,13 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <script type="text/javascript" src="https://schuvi.github.io/tutorialtkj/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://schuvi.github.io/tutorialtkj/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="https://schuvi.github.io/tutorialtkj/wp-json/">
+<link rel="alternate" type="application/json" href="https://schuvi.github.io/tutorialtkj/wp-json/wp/v2/posts/42">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://schuvi.github.io/tutorialtkj/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.4.2">
+<link rel="canonical" href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/">
+<link rel="shortlink" href="https://schuvi.github.io/tutorialtkj/?p=42">
+<link rel="alternate" type="application/json+oembed" href="https://schuvi.github.io/tutorialtkj/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fschuvi.github.io%2Ftutorialtkj%2F2023%2F12%2F27%2Fcontoh1%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://schuvi.github.io/tutorialtkj/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fschuvi.github.io%2Ftutorialtkj%2F2023%2F12%2F27%2Fcontoh1%2F#038;format=xml">
 <meta name="generator" content="Elementor 3.18.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
 <style type="text/css" id="custom-background-css">body.custom-background { background-color: #eaeaed; }</style>
 	<link rel="icon" href="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/cropped-TKJ-32x32.png" sizes="32x32">
@@ -52,7 +58,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <style type="text/css" media="screen">.is-menu path.search-icon-path { fill: #848484;}body .popup-search-close:after, body .search-close:after { border-color: #848484;}body .popup-search-close:before, body .search-close:before { border-color: #848484;}</style>
 </head>
 
-<body class="home blog custom-background justread hfeed elementor-default elementor-kit-7">
+<body class="post-template-default single single-post postid-42 single-format-standard custom-background justread elementor-default elementor-kit-7">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
@@ -69,14 +75,14 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 	<header id="masthead" class="site-header">
 		<div class="navbar">
 			<div class="site-branding">
-									<h1 class="site-title"><a href="https://schuvi.github.io/tutorialtkj/" rel="home">Tutor TKJ</a></h1>
+									<p class="site-title"><a href="https://schuvi.github.io/tutorialtkj/" rel="home">Tutor TKJ</a></p>
 										<p class="site-description">Level Up Your Knowledge</p>
 							</div>
 <!-- .site-branding -->
 
 			<nav id="site-navigation" class="main-navigation">
 				<ul id="primary-menu" class="menu">
-<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-22"><a href="https://schuvi.github.io/tutorialtkj">Beranda</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-22"><a href="https://schuvi.github.io/tutorialtkj">Beranda</a></li>
 <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="https://schuvi.github.io/tutorialtkj/kumpulan-tutorial/">Tentang Website</a></li>
 </ul>			</nav><!-- #site-navigation -->
 		</div>
@@ -89,83 +95,117 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 	<div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main grid grid--3">
+		<main id="main" class="site-main">
 
-			
-<article id="post-48" class="post-48 post type-post status-publish format-standard hentry category-debian">
-	<div class="card">
-						<div class="card__body">
-			<header class="entry-header">
-														<a class="cat-links card__subtitle" href="https://schuvi.github.io/tutorialtkj/category/debian/">Tutorial Debian</a>
-								<h2 class="entry-title card__title"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh4/" rel="bookmark">contoh4</a></h2>			</header><!-- .entry-header -->
-
-			<div class="entry-content card__content">
-				
-248c
-			</div>
-<!-- .entry-content -->
-
-			<footer class="card__footer">
-				<span class="byline"> <img alt="" src="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=24&#038;d=mm&#038;r=g" srcset="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=48&#038;d=mm&#038;r=g 2x" class="avatar avatar-24 photo" height="24" width="24" decoding="async"> <span class="author vcard"><a class="url fn n" href="https://schuvi.github.io/tutorialtkj/author/schuvi/">Schuvi</a></span></span><span class="posted-on"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh4/" rel="bookmark"><time class="entry-date published updated" datetime="2023-12-27T07:04:13+07:00">27 Desember 2023</time></a></span>			</footer><!-- .entry-footer -->
-		</div>
-	</div>
-</article><!-- #post-48 -->
-
-<article id="post-46" class="post-46 post type-post status-publish format-standard hentry category-debian">
-	<div class="card">
-						<div class="card__body">
-			<header class="entry-header">
-														<a class="cat-links card__subtitle" href="https://schuvi.github.io/tutorialtkj/category/debian/">Tutorial Debian</a>
-								<h2 class="entry-title card__title"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh3/" rel="bookmark">contoh3</a></h2>			</header><!-- .entry-header -->
-
-			<div class="entry-content card__content">
-							</div>
-<!-- .entry-content -->
-
-			<footer class="card__footer">
-				<span class="byline"> <img alt="" src="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=24&#038;d=mm&#038;r=g" srcset="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=48&#038;d=mm&#038;r=g 2x" class="avatar avatar-24 photo" height="24" width="24" decoding="async"> <span class="author vcard"><a class="url fn n" href="https://schuvi.github.io/tutorialtkj/author/schuvi/">Schuvi</a></span></span><span class="posted-on"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh3/" rel="bookmark"><time class="entry-date published updated" datetime="2023-12-27T07:03:16+07:00">27 Desember 2023</time></a></span>			</footer><!-- .entry-footer -->
-		</div>
-	</div>
-</article><!-- #post-46 -->
-
-<article id="post-44" class="post-44 post type-post status-publish format-standard hentry category-debian">
-	<div class="card">
-						<div class="card__body">
-			<header class="entry-header">
-														<a class="cat-links card__subtitle" href="https://schuvi.github.io/tutorialtkj/category/debian/">Tutorial Debian</a>
-								<h2 class="entry-title card__title"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh2/" rel="bookmark">contoh2</a></h2>			</header><!-- .entry-header -->
-
-			<div class="entry-content card__content">
-							</div>
-<!-- .entry-content -->
-
-			<footer class="card__footer">
-				<span class="byline"> <img alt="" src="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=24&#038;d=mm&#038;r=g" srcset="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=48&#038;d=mm&#038;r=g 2x" class="avatar avatar-24 photo" height="24" width="24" decoding="async"> <span class="author vcard"><a class="url fn n" href="https://schuvi.github.io/tutorialtkj/author/schuvi/">Schuvi</a></span></span><span class="posted-on"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh2/" rel="bookmark"><time class="entry-date published updated" datetime="2023-12-27T07:03:04+07:00">27 Desember 2023</time></a></span>			</footer><!-- .entry-footer -->
-		</div>
-	</div>
-</article><!-- #post-44 -->
-
+		
 <article id="post-42" class="post-42 post type-post status-publish format-standard hentry category-mikrotik">
-	<div class="card">
-						<div class="card__body">
-			<header class="entry-header">
-														<a class="cat-links card__subtitle" href="https://schuvi.github.io/tutorialtkj/category/mikrotik/">Tutorial Mikrotik</a>
-								<h2 class="entry-title card__title"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/" rel="bookmark">Cara Setting Wifi Voucher menggunakan Mikhmon Di Mikrotik (Tanpa Web Server Terpisah)</a></h2>			</header><!-- .entry-header -->
+	<header class="entry-header">
+		<h1 class="entry-title">Cara Setting Wifi Voucher menggunakan Mikhmon Di Mikrotik (Tanpa Web Server Terpisah)</h1>					<div class="entry-meta">
+				<span class="byline"> <img alt="" src="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=32&#038;d=mm&#038;r=g" srcset="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=64&#038;d=mm&#038;r=g 2x" class="avatar avatar-32 photo" height="32" width="32" decoding="async"> <span class="author vcard"><a class="url fn n" href="https://schuvi.github.io/tutorialtkj/author/schuvi/">Schuvi</a></span></span><span class="posted-on"><span class="on">on</span><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/" rel="bookmark"><time class="entry-date published" datetime="2023-12-27T07:02:50+07:00">27 Desember 2023</time><time class="updated" datetime="2023-12-27T12:33:51+07:00">27 Desember 2023</time></a></span><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/#respond" class="comments-link">Leave a Comment<span class="screen-reader-text"> on Cara Setting Wifi Voucher menggunakan Mikhmon Di Mikrotik (Tanpa Web Server Terpisah)</span></a>			</div>
+<!-- .entry-meta -->
+			</header><!-- .entry-header -->
 
-			<div class="entry-content card__content">
-				<p>Mikhmon adalah suatu software yang memudahkan pengguna mikrotik untuk mengatur hotspot untuk kebutuhan usaha. Pada mikhmon, terdapat banyak sekali fitur&hellip;</p>
-			</div>
+	<div class="entry-body">
+				<div class="entry-content">
+			
+2fd9
+<p>Mikhmon adalah suatu software yang memudahkan pengguna mikrotik untuk mengatur hotspot untuk kebutuhan usaha. Pada mikhmon, terdapat banyak sekali fitur seperti, membuat voucher, monitoring jaringan, membatasi data, membuat layout voucher dll. Langsung saja berikut cara caranya :</p>
+<p>Hal-hal yang harus disiapkan :</p>
+<ol>
+<li>Laptop / Komputer (Tentu saja, gimana kalian mau ngerjain kalau gaada)</li>
+<li>Software <a href="https://laksa19.github.io/?mikhmon/v3/download">Mikhmon</a> (Ini versi 3 ya, kalau kalian mau menggunakan versi 4 boleh saja)</li>
+<li>Mikrotik (Minimal Router OS versi 6.3)</li>
+<li>Winbox</li>
+</ol>
+<p>Langkah-langkah :</p>
+<p>1. Download software Mikhmon dari link yang sudah saya sediakan diatas, jika sudah terbuka pilih yang &#8220;MIKHMON V3 + Webserver&#8221;.</p>
+<p><img fetchpriority="high" decoding="async" class=" wp-image-69 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-300x169.png" alt="" width="659" height="371" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-165.png 1366w" sizes="(max-width: 659px) 100vw, 659px"></p>
+<p>2. Jika sudah terdownload, extract file tersebut dan klik dua kali pada file &#8220;MikhmonServer.exe&#8221;, kemudian akan muncul tampilan seperti dibawah ini.</p>
+<p><img decoding="async" class=" wp-image-71 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Tampilan-server-non-aktif.png" alt="" width="319" height="262"></p>
+<p>3. Klik start server untuk memulai server.</p>
+<p><img decoding="async" class=" wp-image-72 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Tampilan-server.png" alt="" width="309" height="251"></p>
+<p>4. Siapkan mikrotik kalian, kemudian masuk kedalam winbox.</p>
+<p>5. Ubah identity dari mikrotik kalian, dengan cara masuk menu system -&gt; Identity dan ganti seperti pada gambar (Identity bisa diisi dengan nama lain). Jika sudah klik OK.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-75 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/identity-session.png" alt="" width="276" height="142"></p>
+<p>6. Tambahkan 2 ip address, 1 ip address untuk menyambungkan dari router ke laptop admin dan 1 ip address untuk menyambungkan client dengan router. <strong>Untuk ip address yang mengarah ke laptop admin gunakan interfaces ether2 dan untuk ip address client gunakan interfaces wlan1</strong>. Terus interfaces ether1 digunakan untuk apa? ether1 digunakan untuk sumber internet. Jika sudah klik OK.</p>
+<p><img loading="lazy" decoding="async" class="size-medium wp-image-76 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/ip-address-list-300x263.png" alt="" width="300" height="263" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/ip-address-list-300x263.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/ip-address-list.png 577w" sizes="(max-width: 300px) 100vw, 300px"></p>
+<p>7. Kemudian lakukan setup hotspot pada menu IP -&gt; Hotspot -&gt; Hotspot Setup. Kemudian akan keluar pop up menu pilih interfaces wlan1, dan klik next hingga menu DNS Name dan isi kolom tersebut terserah kalian (contohnya seperti walaweeee.pro), klik next dan isikan name local hotspot name dan password (terserah kalian). Kemudian klik next. <strong>Catat DNS Name</strong></p>
+<p><img loading="lazy" decoding="async" class=" wp-image-77 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Hotspot-300x209.png" alt="" width="342" height="238" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Hotspot-300x209.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Hotspot.png 539w" sizes="(max-width: 342px) 100vw, 342px"></p>
+<p>8. Kemudian, tambahkan Users khusus untuk mikhmon pada System -&gt; Users. Masuk pada tab menu Groups dulu dan tambahkan seperti dibawah ini. Untuk Name groups bisa kalian isi semau kalian. Jika sudah klik OK</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-78 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/group-300x159.png" alt="" width="448" height="237" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/group-300x159.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/group.png 715w" sizes="(max-width: 448px) 100vw, 448px"></p>
+<p>9. Kemudian klik tab menu Users dan buat user baru, ganti kolom groups pada groups yang telah dibuat tadi, dan isikan password semau kalian. Jika sudah klik OK.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-79 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/user-new-300x170.png" alt="" width="342" height="194" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/user-new-300x170.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/user-new.png 668w" sizes="(max-width: 342px) 100vw, 342px"></p>
+<p>10. Jika sudah, masuk pada menu wireless dan klik 2 kali pada interfaces wlan1. Dan atur konfigurasi WIFI pada tab menu Wireless. Untuk SSID bisa kalian isi terserah kalian. Pastikan interface sudah enable (cek pada tulisan sebelah kanan menu tersebut). Kemudian klik OK.</p>
+<p><img loading="lazy" decoding="async" class="size-medium wp-image-80 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/wireless-interfaces-300x285.png" alt="" width="300" height="285" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/wireless-interfaces-300x285.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/wireless-interfaces.png 535w" sizes="(max-width: 300px) 100vw, 300px"></p>
+<p>11. Kemudian jangan lupa kalian jadikan DHCP dengan cara masuk menu IP -&gt; DHCP Server -&gt; DHCP Setup. Pilih Interfaces ether2 dan klik next terus hingga menu pop up menghilang (ulangi kembali cara ini untuk interfaces wlan1). Hingga menjadi seperti gambar dibawah ini. <strong>Jangan khawatir tulisan berwarna merah, itu dikarenakan belum ada client yang tersambung pada interfaces tersebut</strong>.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-81 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Dhcp-server-300x157.png" alt="" width="468" height="245" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Dhcp-server-300x157.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Dhcp-server.png 721w" sizes="(max-width: 468px) 100vw, 468px"></p>
+<p>12. Kemudian kembali pada menu server mikhmon yang bisa kalian buka pada system tray windows. Klik pada gambar yang ada di sebelah speaker (cari gambar yang mirip seperti logo dalam lingkaran tersebut). Klik kiri pada mouse dan klik open.</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-85 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/systray1.png" alt="" width="125" height="154"></p>
+<p>13. Kemudian akan terbuka menu server mikhmon kembali dan klik open mikhmon.</p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-72 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Tampilan-server.png" alt="" width="288" height="234"></p>
+<p>14. Kalian akan diarahkan pada browser yang otomatis akan membuka halaman mikhmon. Masukkan username = mikhmon dan password = 1234, pada kolom tersebut.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-86 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-300x169.png" alt="" width="510" height="287" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Login-mikhmon.png 1366w" sizes="(max-width: 510px) 100vw, 510px"></p>
+<p>15. Jika kalian berhasil login, maka akan muncul menu seperti dibawah ini dan klik add router pada menu sebelah kiri.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-87 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-300x169.png" alt="" width="524" height="295" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/Screenshot-167.png 1366w" sizes="(max-width: 524px) 100vw, 524px"></p>
+<p>16. Pada menu add router isi bagian Session Name sesuai dengan nama pada Identity Mikrotik, isi IP Mikrotik sesuai dengan IP yang diisikan pada ether2, pada Mikhmon Data isi Hotspot Name terserah kalian, Isi juga DNS Name sesuai dengan DNS Name Hotspot yang telah diatur tadi, untuk data lain bisa kalian ikuti seperti pada gambar.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-88 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-300x169.png" alt="" width="520" height="293" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-router.png 1366w" sizes="(max-width: 520px) 100vw, 520px"></p>
+<p>17. Kemudian klik save, selanjutnya klik ping hingga muncul Ping OK seperti pada gambar diatas baru klik Connect.</p>
+<p>18. Untuk cara membuat vouchernya, pilih Add User Profile dan isikan seperti pada gambar, bisa kalian isi sebebas kalian dengan memerhatikan aturan yang berada di samping kanan. Jika sudah klik save.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-89 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-300x169.png" alt="" width="506" height="285" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/add-user-profile.png 1366w" sizes="(max-width: 506px) 100vw, 506px"></p>
+<p>19. Untuk membuat voucher, kalian pilih menu user dan Generate User dan kalian bisa ikuti aturan dibawah ini.</p>
+<p style="text-align: center;"><img loading="lazy" decoding="async" class="alignnone  wp-image-90" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-300x169.png" alt="" width="498" height="280" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/generate-user.png 1366w" sizes="(max-width: 498px) 100vw, 498px"></p>
+<p>20. Klik QR pada deretan tombol diatas kolom, dan akan menampilkan kumpulan QR yang bisa discan untuk masuk kedalam wifi atau bisa juga kalian masukkan username dan password secara manual.</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-91 aligncenter" src="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-300x169.png" alt="" width="489" height="276" srcset="https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-300x169.png 300w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-1024x576.png 1024w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher-768x432.png 768w, https://schuvi.github.io/tutorialtkj/wp-content/uploads/2023/12/hasil-template-voucher.png 1366w" sizes="(max-width: 489px) 100vw, 489px"></p>
+
+1d45
+		</div>
 <!-- .entry-content -->
 
-			<footer class="card__footer">
-				<span class="byline"> <img alt="" src="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=24&#038;d=mm&#038;r=g" srcset="http://0.gravatar.com/avatar/ff840becc3afdfa53ffccd0de6fe6f8a?s=48&#038;d=mm&#038;r=g 2x" class="avatar avatar-24 photo" height="24" width="24" decoding="async"> <span class="author vcard"><a class="url fn n" href="https://schuvi.github.io/tutorialtkj/author/schuvi/">Schuvi</a></span></span><span class="posted-on"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/" rel="bookmark"><time class="entry-date published" datetime="2023-12-27T07:02:50+07:00">27 Desember 2023</time><time class="updated" datetime="2023-12-27T12:33:51+07:00">27 Desember 2023</time></a></span>			</footer><!-- .entry-footer -->
-		</div>
+		<footer class="entry-footer">
+			<span class="cat-links"><span class="cat-links__title">Categories</span><a href="https://schuvi.github.io/tutorialtkj/category/mikrotik/" rel="category tag">Tutorial Mikrotik</a></span>		</footer><!-- .entry-footer -->
 	</div>
 </article><!-- #post-42 -->
 
-		</main><!-- #main -->
+	<nav class="navigation post-navigation" aria-label="Pos">
+		<h2 class="screen-reader-text">Navigasi pos</h2>
+		<div class="nav-links">
+<article class="adjacent">
+	<div class="card">
+				<div class="card__body">
+			<header class="card__header">
+														<a class="card__subtitle" href="https://schuvi.github.io/tutorialtkj/category/debian/">Tutorial Debian</a>
+								<h3 class="card__title"><a href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh2/" rel="bookmark">contoh2</a></h3>			</header>
 
-		
+			<div class="card__content">
+							</div>
+<!-- .entry-summary -->
+		</div>
+	</div>
+</article>
+</div>
+	</nav>
+<div id="comments" class="comments-area">
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Tinggalkan Balasan <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://schuvi.github.io/tutorialtkj/2023/12/27/contoh1/#respond" style="display:none;">Batalkan balasan</a></small>
+</h3>
+<form action="http://localhost/tutortkj/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Alamat email Anda tidak akan dipublikasikan.</span> <span class="required-field-message">Ruas yang wajib ditandai <span class="required">*</span></span></p>
+<p class="comment-form-comment"><label for="comment">Komentar <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p>
+<p class="comment-form-author"><label for="author">Nama <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required></p>
+<p class="comment-form-url"><label for="url">Situs Web</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Simpan nama, email, dan situs web saya pada peramban ini untuk komentar saya berikutnya.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Kirim Komentar"> <input type="hidden" name="comment_post_ID" value="42" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+	
+</div>
+<!-- #comments -->
+
+		</main><!-- #main -->
 	</div>
 <!-- #primary -->
 
@@ -220,6 +260,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <script type="text/javascript" src="https://schuvi.github.io/tutorialtkj/wp-content/themes/justread/js/navigation.js?ver=1.0.0" id="justread-navigation-js"></script>
 <script type="text/javascript" src="https://schuvi.github.io/tutorialtkj/wp-content/themes/justread/js/skip-link-focus-fix.js?ver=1.0.0" id="justread-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="https://schuvi.github.io/tutorialtkj/wp-content/themes/justread/js/script.js?ver=1.0.0" id="justread-js"></script>
+<script type="text/javascript" src="https://schuvi.github.io/tutorialtkj/wp-includes/js/comment-reply.min.js?ver=6.4.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
 <script type="text/javascript" id="ivory-search-scripts-js-extra">
 /* <![CDATA[ */
 var IvorySearchVars = {"is_analytics_enabled":"1"};
